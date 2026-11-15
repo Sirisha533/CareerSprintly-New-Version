@@ -1,0 +1,9 @@
+[
+  {"capability":"code","source":"pixel-perfect-replica-main.zip (TanStack Start)","outcome":"migrate","status":"verified","next_action":"none"},
+  {"capability":"assets","source":"src/assets + logo CDN asset from source project","outcome":"migrate (logo rebuilt from site icon; original file not accessible)","status":"verified","next_action":"none"},
+  {"capability":"schema","source":"none in source","outcome":"inquiry tables recreated in this project's Lovable Cloud (target_country now required)","status":"verified","next_action":"none"},
+  {"capability":"records","source":"none (contact form never stored data)","outcome":"not applicable","status":"accepted","next_action":"none"},
+  {"capability":"auth","source":"none","outcome":"not applicable","status":"accepted","next_action":"none"},
+  {"capability":"external providers / webhooks / schedules / secrets","source":"none detected","outcome":"not applicable","status":"accepted","next_action":"none"},
+  {"capability":"owner email notifications","source":"none","outcome":"pending verified email domain","status":"pending","next_action":"User verifies a sending domain, then ask to turn on owner emails"}
+]
